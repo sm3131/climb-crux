@@ -1,6 +1,6 @@
 <div class="sm:sticky top-0 z-20 bg-grey flex flex-row justify-between text-sm sm:text-base md:text-xl font-aleg text-dark-grey p-3">
     <div class="mt-2">
-        <a href="/"><img src="{{ asset('img/mountain-logo.png')}}" class="h-12 sm:h-10 w-auto inline sm:mb-2" /></a>
+        <a href="/"><img src="{{ asset('img/mountain-logo.png')}}" title="Peaks icons created by PLANBSTUDIO - Flaticon" class="h-12 sm:h-10 w-auto inline sm:mb-2" /></a>
         <a href="/" class="hidden sm:inline text-left justify-self-start sm:mt-0 sm:ml-2 sm:pb-4 text-base sm:text-2xl hover:text-green-blue font-bold font-aleg tracking-wide uppercase">Climb Crux Conquer</a>
         <a href="/" class="sm:hidden inline justify-self-start text-2xl hover:text-green-blue font-bold font-aleg tracking-wider uppercase">CCC</a>
     </div>

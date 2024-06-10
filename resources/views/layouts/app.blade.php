@@ -16,7 +16,7 @@
             display: none !important;
         }
     </style>
-    <link rel="icon" type="image/png" href="{{ asset('/img/moab-fav.png') }}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ asset('/img/mountain-logo.png') }}" sizes="32x32">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Edu+VIC+WA+NT+Beginner&family=Inter:wght@400;600;700&family=Lora&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
