@@ -8,6 +8,10 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        outDir: './public/build',
+        publicPath: '/build/assets',
+    },
     server: {
         https: true,
     },
