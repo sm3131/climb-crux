@@ -46,16 +46,16 @@
     </div>
 </div>
 <div class="flex flex-col md:flex-row gap-4 font-lora text-dark-grey md:mb-10">
-    <div class="sm:hidden block md:w-6/12">
+    <div class="md:hidden block md:w-6/12">
         <img loading="lazy" src="{{asset('/img/rr-valley.jpg')}}" alt="red rock valley sandstone rock formations" class="object-cover h-80 w-80 m-auto" />
     </div>
     <div class="w-full self-center lg:mr-12">
-        <h3 class="text-center md:text-left ml-8 lg:ml-20 text-roboto uppercase font-bold">Experience</h3>
+        <h3 class="text-center md:text-left md:ml-8 lg:ml-20 text-roboto uppercase font-bold">Experience</h3>
         <p class="text-center md:text-left px-8 md:pr-12 mb-6 lg:ml-12 w-full">
             Sammi has both a bachelor's and master's degree in the fields of physiology and science education. Using her schooling background, individual experience, and interest in health and climbing she hopes to provide knowledge and information to help others overcome their struggles. It is never fun to be away from the sports you love, and if you are a climber then you know how hard it is to stay away from the rock. Climb Crux Conquer aims to build community around healing and help climbers return to the rock. Sammi hopes you will take advantage of the support and resources provided to make changes and start your healing process to return to climbing.
         </p>
     </div>
-    <div class="hidden sm:block md:w-6/12 md:mr-6">
+    <div class="hidden md:block md:w-6/12 md:mr-6">
         <img loading="lazy" src="{{asset('/img/rr-valley.jpg')}}" alt="red rock valley sandstone walls" class="object-cover h-80 w-80 m-auto" />
     </div>
 </div>
