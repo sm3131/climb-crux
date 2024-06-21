@@ -1,4 +1,4 @@
-<div class="sticky top-0 bg-grey list-none grid grid-cols-1 content-center h-full text-xl font-aleg p-3 text-dark-grey">
+<div class="sticky top-0 bg-grey list-none grid grid-cols-1 content-center text-xl font-aleg p-3 text-dark-grey">
     <div>
         <div class="flex flex-row text-center gap-6 justify-center">
             <div class="hover:text-green-blue"><a href="mailto:smoore98765@gmail.com"><i class="fa-solid fa-envelope"></i></a></div>

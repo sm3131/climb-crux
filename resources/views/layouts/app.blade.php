@@ -24,10 +24,14 @@
     @stack('scripts')
 </head>
 
-<body class="bg-light-grey">
-    @include('partials.header')
+<body class="flex flex-col h-screen bg-light-grey">
+    <div>
+        @include('partials.header')
+    </div>
     <hr />
-    @yield('content')
+    <div class="grow">
+        @yield('content')
+    </div>
     @include('partials.footer')
 </body>
 
