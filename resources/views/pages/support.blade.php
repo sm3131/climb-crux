@@ -2,8 +2,8 @@
 
 @section('content')
 <div class="grid grid-cols-1 justify-items-center gap-6 font-roboto mt-4 sm:mt-14 mx-2 sm:mx-16">
-    <h3 class="text-lg">Coaching Plans</h3>
-    <p class="text-center">Click on one of the coaching plans below to learn more. Explore all the plans to find one that aligns the best with your schedule and goals. I recommend setting up a free consultation call first, to see if Peak Valley Coaching is the right fit for you.</p>
+    <h3 class="text-lg">Climb Crux Conquer Support System</h3>
+    <p class="text-center">Click on any of the support topics below to read more.</p>
 </div>
 <div class="grid grid-cols-1 lg:grid-cols-2 justify-items-center gap-8 font-roboto mt-14 mx-16 mb-10">
     <div class="flex flex-col items-center mb-20 mb-20">

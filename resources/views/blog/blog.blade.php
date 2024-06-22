@@ -1,11 +1,11 @@
 @extends('layouts.app')
 @section('content')
 <div class="grid grid-cols-1 justify-items-center gap-6 font-roboto mt-4 sm:mt-14 mx-2 sm:mx-16">
-    <h3 class="text-2xl text-center">Peak Valley Blog</h3>
+    <h3 class="text-2xl text-center">Climb Crux Conquer Blog</h3>
     @if(empty($blogs))
-    <p class="text-center">Peak Valley Coaching blogs are in the making! Stay Tuned!</p>
+    <p class="text-center">Climb Crux Conquer blogs are in the making! Stay Tuned!</p>
     @else
-    <p class="text-center">Explore the blogs below to learn more about the struggles of recovery, how to keep going, and how to maintain consistency on your journey.</p>
+    <p class="text-center">Explore the blogs below to read about climbing recovery, pain and injury prevention, and fun rock climbing topics.</p>
     @endif
 </div>
 @if(session()->has('success'))
