@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
+use Spatie\Honeypot\ProtectAgainstSpam;
 
 // Main site Routes
 Route::get('/', function () {
@@ -33,7 +34,7 @@ Route::get('/disclaimer', function () {
 });
 
 Route::get('/contact', [ContactController::class, 'show']);
-Route::post('/contact', [ContactController::class, 'send'])->name("contact.send");
+Route::post('/contact', [ContactController::class, 'send'])->middleware(ProtectAgainstSpam::class)->name("contact.send");
 
 // Support Topics
 Route::get('/exercise-programs', function () {

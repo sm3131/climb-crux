@@ -13,6 +13,7 @@
     @endif
     <form id="contactForm" action="#contact" method="POST">
         @csrf
+        @honeypot
         <div id="contact" class="flex flex-col gap-4 items-center">
             <div class="flex flex-col">
                 <label class="font-roboto" for="name">Name</label>
