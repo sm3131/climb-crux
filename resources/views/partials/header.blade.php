@@ -4,23 +4,25 @@
         <a href="/" class="hidden sm:inline text-left self-start mt-5 ml-2 text-base sm:text-xl hover:text-green-blue font-aleg tracking-wide uppercase">Climb Crux Conquer</a>
         <a href="/" class="sm:hidden self-start text-2xl mt-4 hover:text-green-blue font-aleg tracking-wide uppercase">CCC</a>
     </div>
-    <div class="hidden lg:inline-flex flex flex-row text-center sm:gap-4 sm:justify-self-end mt-3 mr-4">
-        <div class="hover:text-green-blue uppercase"><a href="/">Home</a></div>
-        <div class="hover:text-green-blue uppercase"><a href="/about">About</a></div>
-        <div class="hover:text-green-blue uppercase"><a href="/support">Support</a></div>
-        <div class="hover:text-green-blue uppercase"><a href="/resources">Resources</a></div>
-        <div class="hover:text-green-blue uppercase"><a href="/contact">Contact</a></div>
+    <div class="hidden lg:inline-flex flex flex-row text-center sm:justify-self-end mt-5 mr-4">
+        <div><a class="hover:text-green-blue uppercase" href="/">Home</a><span class="mx-2">|</span></div>
+        <div><a class="hover:text-green-blue uppercase" href="/about">About</a><span class="mx-2">|</span></div>
+        <div><a class="hover:text-green-blue uppercase" href="/support">Support</a><span class="mx-2">|</span></div>
+        <div><a class="hover:text-green-blue uppercase" href="/blog">Blog</a><span class="mx-2">|</span></div>
+        <div><a class="hover:text-green-blue uppercase" href="/resources">Resources</a><span class="mx-2">|</span></div>
+        <div><a class="hover:text-green-blue uppercase" href="/contact">Contact</a></div>
     </div>
-    <div class="lg:hidden flex flex-col text-right sm:gap-4 self-end mr-2 mb-2" x-data="{ show: false}">
-        <button @click="show = !show" class="self-end mr-2 mb-1">
-            <i class="fa-solid fa-bars text-2xl"></i>
+    <div class="lg:hidden flex flex-col text-right sm:gap-4 self-end mr-2" x-data="{ show: false}">
+        <button @click="show = !show" class="self-end mr-2 mb-2">
+            <i class="fa-solid fa-bars text-2xl mt-2"></i>
     </button>
         <div x-cloak x-show="show" class="text-right text-base mr-2">
-            <div class="hover:text-green-blue uppercase"><a href="/">Home</a></div>
-            <div class="hover:text-green-blue uppercase"><a href="/about">About</a></div>
-            <div class="hover:text-green-blue uppercase"><a href="/support">Support</a></div>
-            <div class="hover:text-green-blue uppercase"><a href="/resources">Resources</a></div>
-            <div class="hover:text-green-blue uppercase"><a href="/contact">Contact</a></div>
+            <div><a class="hover:text-green-blue uppercase" href="/">Home</a></div>
+            <div><a class="hover:text-green-blue uppercase" href="/about">About</a></div>
+            <div><a class="hover:text-green-blue uppercase" href="/support">Support</a></div>
+            <div><a class="hover:text-green-blue uppercase" href="/resources">Resources</a></div>
+            <div><a class="hover:text-green-blue uppercase" href="/blog">Blog</a></div>
+            <div><a class="hover:text-green-blue uppercase" href="/contact">Contact</a></div>
         </div>
     </div>
 </div>

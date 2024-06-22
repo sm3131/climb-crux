@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 use Spatie\Honeypot\ProtectAgainstSpam;
 
@@ -52,3 +54,34 @@ Route::get('/mental-fortitude', function () {
 Route::get('/community-page', function () {
     return view('plans.community-page', ['title' => 'Community Page']);
 });
+
+
+// Blog Routes
+Route::get('/blog', [BlogController::class, 'index']);
+
+Route::get('/blog/{slug}', [BlogController::class, 'show']);
+
+Route::get('/blog-create', [BlogController::class, 'create'])->middleware('auth')->middleware('user.type:admin');
+
+Route::post('/blog-store', [BlogController::class, 'store'])->middleware('user.type:admin')->name('blog.store');
+
+Route::get('/blog-admin', [BlogController::class, 'admin'])->middleware('auth')->middleware('user.type:admin')->name('blog.admin');
+
+Route::get('/blog-edit/{id}', [BlogController::class, 'edit'])->middleware('auth')->middleware('user.type:admin')->name('blog.edit');
+
+Route::put('/blog-update/{id}', [BlogController::class, 'update'])->middleware('auth')->middleware('user.type:admin')->name('blog.update');
+
+Route::delete('/blog-delete/{id}', [BlogController::class, 'destroy'])->middleware('auth')->middleware('user.type:admin')->name('blog.delete');
+
+// Login & Auth Routes
+Route::get('login', [LoginController::class, 'login'])->name('login');
+
+Route::post('login', [LoginController::class, 'authenticate'])->middleware('user.type:admin');
+
+Route::post('logout', [LoginController::class, 'logout'])->middleware('auth')->name('logout');
+
+Route::get('logout-success', [LoginController::class, 'logoutSuccess'])->name('logout-success');
+
+Route::get('register', [LoginController::class, 'showRegister'])->name('register');
+
+Route::post('register', [LoginController::class, 'register']);
