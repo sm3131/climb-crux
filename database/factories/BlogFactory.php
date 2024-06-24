@@ -26,7 +26,6 @@ class BlogFactory extends Factory
                     'rr-pond.jpg',
                     'az-creek.jpg',
                     'indian-creek.jpg',
-                    'salt-lake.jpg',
                     'sedona.jpg',
                     'rr-wall.jpg',
                     'utah-ridges.jpg',
