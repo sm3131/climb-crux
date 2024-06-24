@@ -21,7 +21,7 @@ return [
         'p' => 'text-base text-light-grey text-nunito mb-4 leading-relaxed',
         'ul' => 'list-disc mb-2',
         'a' => 'text-deep-red underline hover:text-green-blue',
-        '.heading' => 'mb-2 underline text-left text-black text-nunito tracking-wide'
+        '.heading' => 'mb-2 text-left text-black text-nunito tracking-wide'
     ],
 
     /**
