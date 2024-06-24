@@ -9,7 +9,6 @@
         <div class="hover:text-green-blue uppercase"><a href="/about">About</a></div>
         <div class="hover:text-green-blue uppercase"><a href="/support">Support</a></div>
         <div class="hover:text-green-blue uppercase"><a href="/resources">Resources</a></div>
-        <div class="hover:text-green-blue uppercase"><a href="/resources">Testing Revert</a></div>
         <div class="hover:text-green-blue uppercase"><a href="/contact">Contact</a></div>
     </div>
     <div class="lg:hidden flex flex-col text-right sm:gap-4 self-end mr-2 mb-2" x-data="{ show: false}">
